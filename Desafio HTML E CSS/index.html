@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="Desafio Trainee 2017.1">
+	<meta name="author" content="GTi Engenharia Jr"/>
+	<title> GTi Engenharia Jr</title>
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/stylejs.css" rel="stylesheet">
+	<link rel="icon" href="images/ico.png">
+	<title>Alerta</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" rel="stylesheet">
+    <!--MEU CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--MEU CSS-->
+    <link rel="stylesheet" type="text/css" href="css/stylejs.css">
+    <!-- BIBLIOTECA JQUERY -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- BIBLIOTECA JQUERY UI -->
+    <script src="js/jquery-ui.js"></script>
+    <!-- BIBLIOTECA TOASTR (notificacao personalizada) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.3/toastr.min.js"></script>
+    <!--MEU JS-->
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<div id="alerta" hidden="">
+         <div class="title">Receba Nossas Novidades! <i class="fa fa-times" id="fechar"></i></div>
+         <div class="body">
+            <form id="novidadesform" name="contact-form" method="POST" >
+               <label>e-mail:</label>
+               <input type="text" name="email" placeholder="digite seu email">
+               <button type="submit">Enviar</button>
+            </form>
+            <div class="resultado"></div>
+         </div>
+      </div>
+      <div id="contador"></div>
+	<nav class="header1">
+		<div class="logo">
+			<img src="images/logo.png">
+		</div>
+		<div class="menu">
+			<ul>
+				<li class="lista1"><a class="menu1" href="">	Início </a></li>
+				<li class="lista1"><a class="menu1" href=""> Categorias </a></li>
+				<li class="lista1"><a class="menu1" href=""> Blog </a></li>
+				<li class="lista1"><a class="menu1" href=""> Membros </a></li>
+			</ul>
+		</div>
+	</nav>
+	
+	<header class="textoheader">
+		<div class="bloco">
+			<p>
+			<img src="images/icone-header.png" alt="Icone Header">
+			APRENDA A<br>                                 
+			DESENVOLVER COM A GTi JR.
+			</p>
+		</div>
+		<div>
+			<h3 class="h3">
+				<div class="p1">
+				<a class="menu2" href="">HTML 5 + CSS3 + JS</a>
+				</div>
+				<div class="p2">
+				<a class="menu2" href=""> Ruby On Rails</a>
+				</div>
+			
+			</h3>		
+		</div>
+	</header>
+	
+	<section>
+		<div class="espaco">	
+		</div>
+
+		<div class="linha1">
+			<img src="images/pcs.png"> <div class="material"> <b>MATERIAL TRAINEE 2018</b> </div>
+			<div class ="texto1"> 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut arcu et ipsum pretium lobortis sit amet non tellus. Aenean viverra vel neque ut feugiat. Vivamus tincidunt accumsan nisl, sit amet porttitor nunc lobortis at. Nunc facilisis, nibh porta pharetra dictum, leo ipsum sodales tortor, sed vestibulum nibh nisi quis tellus.Maecenas viverra nunc ut risus interdum pretium. Nunc metus risus, pharetra sed rutrum nec, pharetra in leo. In dictum, orci a suscipit viverra, risus nulla efficitur libero, sed dapibus nibh nunc vitae ipsum. Ut aliquam justo sed vestibulum pellentesque.
+			</div>
+		</div>
+	</section>
+	<hr/>
+	<section>
+		<div class="html5">
+	 		<b>HTML 5 | CSS3 | JAVASCRIPT</b>
+		
+		</div>
+		<div class="bloco1">
+			<div class="img1">
+				<img src="images/html.png">
+			</div>
+			<div class="textohtml">
+				HTML 5 - Introdução<br> Postado por patrick
+			</div>
+			<div class="inferior">
+				<div class="postado1"> Postado dia 04/08/2017</div>
+			<div class="botao1"> <a class="botoes" href=""> ESTUDAR AGORA</a> </div>
+			</div>
+		</div>
+		<div class="bloco1">
+			<div class="img1">
+				<img src="images/html.png">
+			</div>
+			<div class="textohtml">
+				Lista de livros<br> Postado por rayane
+			</div>
+			<div class="inferior">
+				<div class="postado1"> Postado dia 04/08/2017</div>
+			<div class="botao1"> <a class="botoes" href=""> ESTUDAR AGORA</a> </div>
+			</div>
+		</div>
+		<div class="bloco1" id="bloco3">
+			<div class="img1">
+				<img src="images/html-css.png">
+			</div>
+			<div class="textohtml">
+				HTML 5 - Introdução<br> Postado por patrick
+			</div>
+			<div class="inferior">
+				<div class="postado1"> Postado dia 02/04/2018</div>
+			<div class="botao1"> <a class="botoes" href=""> ESTUDAR AGORA</a> </div>
+			</div>
+		</div>
+		<div class="bloco1" id="bloco4">
+			<div class="img1" id="img4">
+				<img src="images/js.png">
+			</div>
+			<div class="textohtml">
+				HTML 5 - Introdução<br> Postado por patrick
+			</div>
+			<div class="inferior">
+				<div class="postado1"> Postado dia 02/04/2018</div>
+			<div class="botao1"> <a class="botoes" href=""> ESTUDAR AGORA</a> </div>
+			</div>
+		</div>
+		<div id="ver">
+			<a class="ver9" href=""> VER +</a>
+		</div>
+		<hr>
+	</section>
+	<section>
+		<div class="ruby1">
+	 		<b>Ruby On Rails</b>
+		
+		</div>
+		<div class="bloco1" id="bloco5">
+			<div class="img1">
+				<img src="images/ruby.png">
+			</div>
+			<div class="textohtml">
+				RUBY - Introdução<br> Postado por Lucas Noleto
+			</div>
+			<div class="inferior">
+				<div class="postado1"> Postado dia 02/04/2018</div>
+			<div class="botao1"> <a class="botoes" href=""> ESTUDAR AGORA</a> </div>
+			</div>
+		</div>
+		<div class="bloco1" id="bloco6">
+			<div class="img1">
+				<img src="images/rails.png">
+			</div>
+			<div class="textohtml">
+				RAILS - Introdução<br> Postado por Patrick
+			</div>
+			<div class="inferior">
+				<div class="postado1"> Postado dia 02/04/2018</div>
+			<div class="botao1"> <a class="botoes" href=""> ESTUDAR AGORA</a> </div>
+			</div>
+		</div>
+		<div class="bloco1" id="bloco7">
+			<div class="img1">
+				<img src="images/heroku.png">
+			</div>
+			<div class="textohtml">
+				Fazendo deplay no heroku<br> Postado por Eduardo
+			</div>
+			<div class="inferior">
+				<div class="postado1"> Postado dia 02/04/2018</div>
+			<div class="botao1"> <a class="botoes" href=""> ESTUDAR AGORA</a> </div>
+			</div>
+		</div>
+		<div class="bloco1" id="bloco8">
+			<div class="img1">
+				<img src="images/rails.png">
+			</div>
+			<div class="textohtml">
+				RAILS - GEMS importantes<br> Postado por Gilvan
+			</div>
+			<div class="inferior">
+				<div class="postado1"> Postado dia 02/04/2018</div>
+			<div class="botao1"> <a class="botoes" href=""> ESTUDAR AGORA</a> </div>
+			</div>
+		</div>
+		<div id="ver2">
+			<a class="ver9" href=""> VER +</a>
+		</div>
+		</section>
+	</body>
+	</html>
+	<footer>
+		Desenvolvedor : Gabriel Diniz Rebouças <br>
+		Contato : gabrieldiniz42@hotmail.com
+	</footer>	
+</body>
+</html>
